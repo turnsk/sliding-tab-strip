@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<attr name="slidingTabStripStyle" format="reference" />
+
+	<declare-styleable name="SlidingTabStrip">
+		<attr name="sliderHeight" format="dimension|reference" />
+		<attr name="sliderColor" format="color|reference" />
+	</declare-styleable>
+
+	<style name="SlidingTabStrip">
+		<item name="sliderHeight">4dp</item>
+		<item name="sliderColor">@android:color/white</item>
+	</style>
+
+</resources>
